@@ -25,11 +25,10 @@ function AllMeetupsPage() {
   return (
     <div>
       <h1>All Meetups Page</h1>
-      <MeetupList meetup={DUMMY_DATA} />
+      <MeetupList meetups={DUMMY_DATA} />
       {/* <ul>
         {DUMMY_DATA.map((meetup) => {
           return <li key={meetup.id}>{meetup.title}</li>;
-          // return <li key={meetup.id}>{meetup.title}</li>;
         })}
       </ul> */}
     </div>
