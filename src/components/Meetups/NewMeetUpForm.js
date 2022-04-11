@@ -24,6 +24,7 @@ function NewMeetUpForm(props) {
     };
 
     // console.log(meetupData);
+    props.onAddMeetup({ meetupData });
   }
   return (
     <Card>
